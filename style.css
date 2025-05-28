@@ -27,3 +27,38 @@ body {
     color: #8f8395;
 }
 
+.container{
+    position: relative;
+}
+
+.container div {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    
+    top: 50%;
+    left: 50%;
+    margin: 100px 0 0 -150px;
+}
+
+
+.mov {
+    /* background-color: #8f8395; */
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.moov {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin: 0 0 0 -280px;
+}
