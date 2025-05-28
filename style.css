@@ -83,15 +83,6 @@ h1 {
     margin: 0 0 0 -280px;
 }
 
-@media (max-width: 767px) {
-    .moov {
-        width: 400px;
-
-        top: 40%;
-        left: 50%;
-        margin: 0 0 0 -200px;
-    }
-}
 
 footer {
     position: fixed;
@@ -100,4 +91,18 @@ footer {
     margin-right: 40px;
     margin-bottom: 10px;
     font-size: 10px;
+}
+
+@media (max-width: 767px) {
+    .moov {
+        width: 400px;
+
+        top: 40%;
+        left: 50%;
+        margin: 0 0 0 -200px;
+    }
+
+    footer {
+        font-size: 5px;
+    }
 }
