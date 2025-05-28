@@ -31,9 +31,9 @@ body {
     width: 30px;
     height: 30px;
     position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .hello {
@@ -91,4 +91,13 @@ h1 {
         left: 50%;
         margin: 0 0 0 -200px;
     }
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    font-size: 10px;
 }
