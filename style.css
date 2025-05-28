@@ -29,6 +29,7 @@ body {
 
 .container{
     position: relative;
+    top: -50px;
 }
 
 .container div {
@@ -58,7 +59,21 @@ h1 {
 
 .moov {
     position: absolute;
+
+    width: 560px; 
+    height: 315px;
+    
     top: 40%;
     left: 50%;
     margin: 0 0 0 -280px;
+}
+
+@media (max-width: 767px) {
+    .moov {
+        width: 300px;
+
+        top: 40%;
+    left: 50%;
+    margin: 0 0 0 -150px;
+    }
 }
