@@ -42,24 +42,18 @@ body {
     color: #676464;
 }
 
-.container{
-    position: relative;
-    top: -50px;
-}
 
-.container div {
-    position: absolute;
-    width: 300px;
-    height: 200px;
-    
-    top: 50%;
-    left: 50%;
-    margin: 100px 0 0 -150px;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
 }
-
 
 .mov {
-    /* background-color: #8f8395; */
+    flex: 1 1 560px;
+    max-width: 560px;
     position: relative;
 }
 
@@ -72,15 +66,12 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-.moov {
-    position: absolute;
-
-    width: 560px; 
-    height: 315px;
-    
-    top: 40%;
-    left: 50%;
-    margin: 0 0 0 -280px;
+iframe.moov {
+    width: 100%;
+    /*height: auto;*/
+    aspect-ratio: 16 / 9;
+    border: none;
+    margin-top: 50px;
 }
 
 
@@ -92,17 +83,30 @@ footer {
     margin-bottom: 10px;
     font-size: 10px;
 }
-
+/*
 @media (max-width: 767px) {
-    .moov {
-        width: 400px;
+    .container {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 20px;
+    }
 
-        top: 40%;
-        left: 50%;
-        margin: 0 0 0 -200px;
+
+    iframe.moov {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+        border: none;
     }
 
     footer {
         font-size: 5px;
     }
+
+    
 }
+*/
